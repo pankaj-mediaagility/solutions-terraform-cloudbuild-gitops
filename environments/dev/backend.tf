@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "cicd-tfstate"
+    bucket = "infra-cicd-tfstate"
     prefix = "env/dev"
   }
 }
